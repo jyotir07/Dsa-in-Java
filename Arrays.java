@@ -26,7 +26,7 @@ class Arrays {
     // printing the array
     for (int i = 0; i < size; i++) {
       System.out.println(" " + anotherArray[i]); // by default all the elements in the array are zero this is because of
-                                                 // the default valuse of int datatype
+                                                 // the default values of int datatype
     }
     // taking input for the elements of the array
     for (int i = 0; i < size; i++) {
