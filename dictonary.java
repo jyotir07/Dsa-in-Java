@@ -31,5 +31,18 @@ public class dictonary {
         The values and keys are not stored in any specific order, but stored in an order wrt each other
         */
         System.out.println("The size of the dictonary: " + engToSpan.size());
+        System.out.println();
+        System.out.println();
+        Map<String, Boolean> shoppingList = new HashMap<String, Boolean>();
+        // Adding elememts to the shopping list
+        shoppingList.put("Nutella", true);
+        shoppingList.put("Jam", false);
+        shoppingList.put("Bread", true);
+        shoppingList.put("Milk", true);
+        shoppingList.put("Curd", false);
+        shoppingList.put("Rice", true);
+        shoppingList.put("Coke", true);
+
+        System.out.println(shoppingList.get("Nutella"));
     }
 }
