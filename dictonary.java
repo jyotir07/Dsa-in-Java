@@ -44,5 +44,9 @@ public class dictonary {
         shoppingList.put("Coke", true);
 
         System.out.println(shoppingList.get("Nutella"));
+        System.out.println(shoppingList.get("Bread"));
+        System.out.println(shoppingList.get("Jam"));
+        System.out.println(shoppingList.get("Rice"));
+        System.out.println(shoppingList.get("Curd"));
     }
 }
